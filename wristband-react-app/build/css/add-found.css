@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    Add Fund
+\*------------------------------------*/
+
+.choose--image {
+    height: 20vw;
+    width: 100%;
+}
+
+.retrieve--choose {
+    height: 48vw;
+}
+
+.header--choose {
+    height: 38vw;
+}
+
+.header--choose--h4 {
+    color: var(--white);
+    margin: 3vw auto;
+    width: 80%;
+}
+
+.choose--items {}
+
+.choose_btn {
+    width: 33vw;
+    height: 33vw;
+    background: var(--orange);
+    display: flex;
+    justify-content: center;
+    border-radius: 1vw;
+    position: relative;
+    box-shadow: -0.1vw 0px 3vw 0.1vw rgba(0, 0, 0, 0.36);
+    flex-direction: column;
+    padding: 1.7vw;
+    align-items: center;
+}
+
+.choose_btn--content {
+    color: var(--white);
+    font-size: 2.8vw;
+    font-weight: 500;
+}
+
+.choose--btn_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16vw 13vw 0;
+    width: 75vw;
+    align-items: center;
+    height: 75vw;
+}
+
+.choose--icon {
+    height: 21vw;
+}

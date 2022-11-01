@@ -1,0 +1,347 @@
+
+/*------------------------------------*\
+    Retrieve items
+\*------------------------------------*/
+
+.item--container {
+    background: var(--greenblue);
+    width: 93%;
+    margin: 4vw auto;
+    border-radius: var(--rad);
+    padding: 1.5vw;
+    box-shadow: var(--shadow1);
+}
+
+.item--title {
+    margin-left: 3vw;
+}
+
+.item--name {
+    margin: 1vw 2vw 0vw 5vw;
+    color: inherit;
+}
+
+.last-name{}
+
+.item_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_text a{
+        margin: auto;
+            margin-right: 0;
+}
+
+
+
+
+/*------------------------------------*\
+    module
+\*------------------------------------*/
+
+
+
+.header_2--container {
+    background-color: var(--black2);
+    margin-bottom: 1.5vw;
+    box-shadow: var(--shadow1);
+    height: 19vw;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.btn {
+    color: var(--white);
+    padding: 2vw 1vw;
+    border-radius: var(--rad);
+    background-color: var(--orange);
+    width: fit-content;
+    box-shadow: 0.4vw 0.4vw 0.1vw 0vw rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    height: 6.7vw;
+    font-size: 3.33vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_confirm {
+    width: var(--btnsize1);
+}
+.btn--container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+}
+
+.btn--container .btn{
+    width: 31vw;
+}
+.btn--green{background-color: var(--greenb);}
+
+.btn--red {
+    background-color: var(--btnred);
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre2 {
+    color: var(--grey);
+}
+
+
+.page--bg {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+
+
+/*------------------------------------*\
+    CHECKBOX
+\*------------------------------------*/
+
+.checkbox{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 0.5vw;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.checked .checkbox:before{
+    
+content:url("/img/checked.svg");
+position: absolute;
+width: 3.7vw;
+top: -1.2vw;
+}
+
+.checked .checkbox{
+    color:var(--btnred);
+}
+
+
+.checkbox--explanation{
+    font-size: 2.3vw;
+    margin: 0 0 0 3vw;
+    cursor: pointer;
+}
+
+
+/*------------------------------------*\
+    Help
+\*------------------------------------*/
+
+.help {
+    padding: 2vw 0.2vw;
+}
+
+.help--container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+    height: 100vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help--container h2 {
+    background-color: var(--orange);
+    text-align: center;
+    font-weight: 200;
+    border-radius: var(--rad) var(--rad) 0 0;
+    height: 9vw;
+}
+
+.help--content {
+    margin: 12vw auto;
+    background: var(--whiteb);
+    width: 80%;
+    height: 62vh;
+    position: fixed;
+    border-radius: var(--rad);
+}
+
+.help--content p {
+    padding: 0 2vw;
+}
+
+.btn_ok {
+    margin: auto;
+    width: 18vw;
+}
+
+/*------------------------------------*\
+    Alert
+\*------------------------------------*/
+
+.alert {
+    padding: 2vw 0.2vw;
+}
+
+.alert--container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 3;
+    height: 100vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert--container h2 {
+    background-color: var(--redb);
+    border-radius: var(--rad) var(--rad) 0 0;
+    height: 5vw;
+}
+
+.alert--content {
+    margin: 12vw auto;
+    background: var(--whiteb);
+    width: 80%;
+    position: fixed;
+    border-radius: var(--rad);
+}
+
+.alert--content p {
+    padding: 0 2vw;
+    width: 67%;
+    margin: 15vw auto;
+    text-align: center;
+}
+.alert--svg{
+    height: 20vw;
+}
+
+/*------------------------------------*\
+    Card
+\*------------------------------------*/
+
+.card--explanation{
+    width: 100%;
+    background-color: var(--redb);
+    height: 12vw;
+    display: flex;
+}
+.card--explanation h3{
+    color: var(--white);
+}
+
+.card{}
+
+.video--card--container{width: 87vw;margin: 59vw auto 4vw;display: flex;}
+
+
+/*------------------------------------*\
+    Cash
+\*------------------------------------*/
+
+.cash--container {
+    height: auto;
+}
+
+
+.btn--cash {
+    width: 12vw;
+    font-size: 2.5vw;
+    padding: inherit;
+    height: 4.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove{
+    background-color: var(--btnred);
+}
+
+.cash--add {width: 19vw;background-color: rgba(0, 0, 0, 0.6);height: 7vw;border-radius: 0.5vw;color: var(--white);font-weight: 600;font-size: 4.7vw;text-align: right;pointer-events: none;padding-right: 5vw;}
+
+.cash--add.balance{
+    margin: -3vw 0 0vw 0;
+}
+
+
+.add_cash--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+}
+
+.dollars{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 4.7vw;
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+}
+
+.total--container{
+    background-color: var(--orange);
+    height: 8.5vw;
+    position: fixed;
+    width: 100%;
+    bottom: 11vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total--container h3:first-child{
+    
+font-size: 4.4vw;
+}
+.total--container h3{
+    color: var(--white);
+    margin: 0 4vw;
+}
+
+.total{
+    font-size: 5.9vw;
+    margin: 0 4vw;
+    font-weight: 600;
+}
+
+/*------------------------------------*\
+    STEP HEADER
+\*------------------------------------*/
+
+
+.step_compensator {
+    padding-top: 21vw;
+}
+.step_header{
+    height: 21vw;
+    top: 9.52vw;
+}
+
+.step_header h4{
+    font-size: 2.18vw;
+    margin-top: 0.5vw;
+}
+
+.step_header--svg{
+    width: 90vw;
+    height: 15vw;
+    margin: auto;
+}
