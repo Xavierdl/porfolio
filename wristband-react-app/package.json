@@ -1,6 +1,6 @@
 {
-  "homepage": "/wristband-react-app/build/",
   "name": "spirit-event",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
