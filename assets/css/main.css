@@ -996,9 +996,9 @@ p {
   width: 100%;
 }
 /* ============= portfolio css ============== */
-.portfolio-section {
+.portfolio-section.cto{
   /* background-image: url("../img/portfolio/portfolio-bg.jpg"); */
-  /* background-color: #000000; */
+  background-color: #000000;
 }
 
 .portfolio-section .single-portfolio {
